@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '11.0'
   s.swift_versions = ['5']
+  s.vendored_frameworks = 'AMRAdapterTiktok/Libs/AMRAdapterTiktok.xcframework'
   s.dependency 'AMRAdapterPangle'
   s.xcconfig = {
     "VALID_ARCHS": "armv7 armv7s x86_64 arm64"
